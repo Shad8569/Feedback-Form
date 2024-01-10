@@ -1,0 +1,18 @@
+*{
+    text-align: center;
+    background-color:rgb(150, 239, 242) ;
+    line-height: 20px;
+    text-transform:capitalize;
+    font-family: playfair;
+}
+#x2{
+    color:darkolivegreen;
+    background-color:#96f2de;
+}
+h3,h4 ,h1  {
+text-decoration: underline;
+font-weight: 600;
+}
+.b {
+    color:brown;
+}

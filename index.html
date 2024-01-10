@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      h3 , h4 , h1 {
+        text-transform: capitalize;
+      }
+    </style>
 </head>
 <body>
     <header>
-<h1> Student login form</h1>
+        <div>
+<h1 style="color: red;"> Student login form</h1>
+</div>
     </header>
     <main>
-<form>
+<form >
     <div>
   <pre>      name : <input type = "text"     placeholder="enter name" </pre>
   <pre>  email id : <input type = "email" placeholder="emailid@gmail.com" </pre>
   <pre>  password : <input type = "password" placeholder="password" </pre>
 </div>
-<div>
-    <p> <h3>your class :</h3></p>
+<h3 class="b">your class :</h3>
+<div id="x2">
 <input type = "radio" value="class XI" name="class">class 11 
 <br>
 <input type="radio" value="class XII" name="class">class 12
 </div>
 <div>
-    <p> <h4>select the language you know :</h4></p>
+    <p> <h4 class="b">select the language you know :</h4></p>
     <input type = "checkbox" value="html5" name="language">html5
     <BR>
     <input type = "checkbox" value="css3" name="language">css3
@@ -38,7 +46,7 @@
 
 </div>
 <div>
-    <p> <h4>select the subject :</h4></p>
+    <p> <h4 class="b">select the subject :</h4></p>
     <label for="201">
     <input type = "checkbox" value="english" name="language"id="202">english
 </label>
@@ -63,7 +71,7 @@
     <input type = "checkbox" value="biology" name="language"id="206">biology
 </label>
 <br>
-<H3> select your cousre :</H3>
+<H3 class="b"> select your cousre :</H3>
 <label for="course">Choose a course:</label>
 <select id="course" name="courselist" form="course lists">
   <option value="web development">web development</option>
@@ -73,7 +81,7 @@
 </select>
 <br>
 </div>
-<H3> give your feedback here :</H3>
+<H3 class="b"> give your feedback here :</H3>
 <textarea name="feedback"placeholder=" please give your feedback here" rows=5>feedback</textarea>
 </form>
 
